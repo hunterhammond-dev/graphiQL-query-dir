@@ -1,0 +1,8 @@
+//Gets all node paths (sitemap)
+query MyQuery {
+  allSitePage {
+    nodes {
+      path
+    }
+  }
+}
